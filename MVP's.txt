@@ -1,0 +1,62 @@
+ZenTask: Task Management App
+	
+- A task management application to create, update, and track tasks.
+
+- Tech Stack: Vite, Node.js, Express, React, PostgreSQL.
+
+- Database: PostgreSQL.
+
+- ORM: Prisma.
+
+- Authentication: bcrypt (password hashing) and JWT (session management).
+
+- Features:
+	CRUD operations for tasks.
+	User authentication and authorization.
+
+- Testing:
+	Unit testing with Jest.
+
+- DevOps:
+	CI/CD pipeline using GitHub Actions.
+
+- Deployment: Heroku.
+
+- Project Management:
+	Agile workflow using GitHub Projects.
+
+Wireframes: 
+
+MVP's:
+	Frontend:
+		-Header:
+			-Logo + title (left)
+			-Login/signup button (right)
+	
+		-Footer:
+			-Credentials (e.g., "© 2023 ZenTask")
+			-Donate button (links to /donate)
+
+		-Donate page:
+			-Text: "Support ZenTask! Your donations help keep this app running."
+			-Payment methods: Debit/Credit Card + Apple Pay.
+			-Modal with "payment successful" + thank you for your donation
+		
+		-Signup/Login page:
+			-Form:
+				-Username, email, password fields.
+				-"Sign in with Google/Github/Apple" buttons (use Firebase Auth or Passport.js).	
+			-Toggle b/w sigup/login modes
+
+		-Tasks page
+			-3 tabs: Daily/Weekly/Long-term (buttons at top)
+			-Task cards for selected tab
+				-Description (text).
+				-Buttons: Complete (✅), Delete (🗑️), Edit (✏️).
+				-Modal for editing details
+				-Modal for confirmation for deleting
+			-"Add New Task" button (bottom).
+
+	Backend:	
+
+Stretch Goals:
