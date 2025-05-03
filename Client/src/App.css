@@ -1,0 +1,56 @@
+main {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+
+  /* width: 100vw; */
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Main body styling-------------------------------------------------------------------------- */
+
+
+
+/* Header + Footer syling-------------------------------------------------------------------------- */
+
+header, footer {
+    padding: 1rem;
+    background: cornflowerblue;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+  }
+
+/* Login/Sigup and Donate buttons */
+header .button, footer a {
+  border: 2px solid black;
+  border-radius: 10px;
+  background: white;
+
+  padding: 10px;
+  text-decoration: inherit;
+
+  align-self: center;
+}
+
+header .logo{
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+header a {
+  color: black;
+  text-decoration: inherit;
+}
+
+footer .p{
+  margin: 0;
+  padding: 0;
+}
